@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2475E07E4A2281785FE847BA /* QuickLargeStructsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475EB9C8A94E06E5B5FDA4C /* QuickLargeStructsTests.swift */; };
+		2475E143707DFD6ECD225283 /* QuickCGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475EEF2BD804CC700EC63A1 /* QuickCGTests.swift */; };
+		2475E4B6F2F220DB8FC5DDCE /* QuickOrderChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2475EEF3B8AA38FE7D9E446A /* QuickOrderChangeTests.swift */; };
 		6267C91B1F94E5FC002156FA /* QuickPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6267C9111F94E5FC002156FA /* QuickPlayground.framework */; };
 		6267C9201F94E5FC002156FA /* QuickPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6267C91F1F94E5FC002156FA /* QuickPlaygroundTests.swift */; };
 		6267C9221F94E5FC002156FA /* QuickPlayground.h in Headers */ = {isa = PBXBuildFile; fileRef = 6267C9141F94E5FC002156FA /* QuickPlayground.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2475E828B5EE4FF3A8AA2BE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2475EB9C8A94E06E5B5FDA4C /* QuickLargeStructsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickLargeStructsTests.swift; sourceTree = "<group>"; };
+		2475EEF2BD804CC700EC63A1 /* QuickCGTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickCGTests.swift; sourceTree = "<group>"; };
+		2475EEF3B8AA38FE7D9E446A /* QuickOrderChangeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickOrderChangeTests.swift; sourceTree = "<group>"; };
 		6267C9111F94E5FC002156FA /* QuickPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6267C9141F94E5FC002156FA /* QuickPlayground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickPlayground.h; sourceTree = "<group>"; };
 		6267C9151F94E5FC002156FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +73,7 @@
 				6267C91E1F94E5FC002156FA /* QuickPlaygroundTests */,
 				6267C9121F94E5FC002156FA /* Products */,
 				6267C92B1F94E7A3002156FA /* Frameworks */,
+				2475E828B5EE4FF3A8AA2BE4 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +100,9 @@
 			children = (
 				6267C91F1F94E5FC002156FA /* QuickPlaygroundTests.swift */,
 				6267C9211F94E5FC002156FA /* Info.plist */,
+				2475EB9C8A94E06E5B5FDA4C /* QuickLargeStructsTests.swift */,
+				2475EEF3B8AA38FE7D9E446A /* QuickOrderChangeTests.swift */,
+				2475EEF2BD804CC700EC63A1 /* QuickCGTests.swift */,
 			);
 			path = QuickPlaygroundTests;
 			sourceTree = "<group>";
@@ -247,6 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6267C9201F94E5FC002156FA /* QuickPlaygroundTests.swift in Sources */,
+				2475E07E4A2281785FE847BA /* QuickLargeStructsTests.swift in Sources */,
+				2475E4B6F2F220DB8FC5DDCE /* QuickOrderChangeTests.swift in Sources */,
+				2475E143707DFD6ECD225283 /* QuickCGTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
