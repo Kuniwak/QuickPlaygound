@@ -1,0 +1,3 @@
+github "Kuniwak/MirrorDiffKit" "2.0.0"
+github "Quick/Nimble" "v7.0.2"
+github "Quick/Quick" "a3850d0ddc18cf1e6ef17b3078c660f46888deca"

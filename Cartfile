@@ -1,0 +1,3 @@
+github "Quick/Quick" "xcode-9-fix"
+github "Quick/Nimble" ~> 7.0.2
+github "Kuniwak/MirrorDiffKit" ~> 2.0.0
